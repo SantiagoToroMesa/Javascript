@@ -106,6 +106,15 @@ console.log(HElowor)
     true && false
     false || true
     !true
+R/
+```js
+console.log(5 == "5");
+console.log(5 === "5");
+console.log(true && false);
+console.log(false || true);
+console.log(!true);
+```
+![img_7.png](img_7.png)
 
 ## Parte 5: Condicionales
 
