@@ -30,25 +30,75 @@ R/ javascript es un lenguaje de programación el cual se encarga de darle intera
     console.log(numENT, NumFLOT, text)
 ```
 2.3 Declara una constante llamada PI con el valor 3.1416. Intenta cambiar su valor y observa qué sucede.
+```js
+    let pi = 3.1416
+    pi = 34
+    console.log(pi)
+```
     
 2.4 Declara una variable sin asignarle valor. Muestra en consola qué contiene.
-    
-2.5 Crea una variable con valor null y otra con un valor booleano. Muestra ambos en consola.
+```js
+    let valornull
+    console.log(valornull)
+```
+![img.png](img.png)
 
+2.5 Crea una variable con valor null y otra con un valor booleano. Muestra ambos en consola.
+```js
+    let valornull = null
+    let valor2 = true
+    console.log(valornull)
+    console.log(valor2)
+```
+![img_1.png](img_1.png)
 ## Parte 3: Entrada y Salida de Datos
 
 3.1 Usa prompt() para pedirle al usuario su edad y guárdala en una variable. Luego, muestra en consola un mensaje que diga "Tienes [edad] años".
+```js
+    let edad = window.prompt("Ingrese su edad");
+    alert("Tienes " + edad + " Años");
+```
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 
 3.2 Usa alert() para mostrar un mensaje de bienvenida.
-
+```js
+alert("Bienvenido ami pagina conectada con javascript");
+```
+![img_4.png](img_4.png)
 3.3 Usa confirm() para preguntar al usuario si desea continuar. Muestra en consola el valor que devuelve esta función.
-
+```js
+    let confirmar = confirm("Desea continuar ?")
+    console.log(confirmar)
+```
+![img_5.png](img_5.png)
+![img_6.png](img_6.png)
 ## Parte 4: Operadores
 
 4.1 Declara dos variables numéricas. Realiza y muestra los resultados de las siguientes operaciones: suma, resta, multiplicación, división y módulo.
+```js
+let num1 = 7
+let num2 = 8
+let suma = num1 + num2
+let resta = num1 - num2
+let multi = num1 * num2
+let div = num1 / num2
+let modulo = num1 % num2
+console.log("resultado suma: " + suma,
+    "resultado resta: " + resta,
+    "resultado multiplicacion: " + multi,
+    "resultado division: " + div,
+    "resultado modulo: " + modulo
+)
+```
 
 4.2 Declara dos variables con cadenas de texto y únelas en una nueva variable usando el operador de concatenación.
-
+```js
+let caden1 = "HeLLO"
+let caden2 = "World"
+HElowor = caden1 + caden2
+console.log(HElowor)
+```
 4.3 Evalúa y muestra en consola el resultado de las siguientes comparaciones:
 
     5 == "5"
@@ -60,20 +110,57 @@ R/ javascript es un lenguaje de programación el cual se encarga de darle intera
 ## Parte 5: Condicionales
 
 5.1 Crea un programa que pida al usuario un número y muestre en consola si es mayor, menor o igual a 10.
+```js
+let numcomp = prompt("Ingrese un numero")
+if (numcomp > 10){
+    alert(`Su numero es mayor a 10`)
+}
+if (numcomp < 10){
+    alert(`Su numero es menor a 10`)
+}
+if (numcomp == 10){
+    alert(`Su numero es igual a 10`)
+}
+```
 
 5.2 Crea un programa que solicite el nombre de un usuario y compare si se llama "Admin". Si es así, muestra un mensaje de bienvenida especial, de lo contrario, un mensaje genérico.
-
+```js
+let usuarion = prompt("Ingrese su usuario")
+if (usuarion == "Admin"){
+    alert("BIENVENIDO ADMIN B)")
+}
+else{
+    alert("bienvenido user")
+}
+```
 5.3 Usa el operador ternario para mostrar si un número ingresado es par o impar.
-Parte 6: Consola del Navegador
+```js
+let numero = prompt("Ingrese un numero")
+const resultado = numero % 2 === 0 ? "par" : "impar";
+if (resultado == "par"){
+    alert("Su numero es par")
+}
+if (resultado == "impar"){
+    alert("Su numero es impar")
+}
+```
+## Parte 6: Consola del Navegador
 
-## 6.1 Muestra diferentes tipos de mensajes en la consola:
+6.1 Muestra diferentes tipos de mensajes en la consola:
 
     Un mensaje informativo (console.info)
     Un mensaje de advertencia (console.warn)
     Un mensaje de error (console.error)
     Un grupo de mensajes (console.group y console.groupEnd)
     El tiempo que tarda un bloque de código en ejecutarse (console.time y console.timeEnd)
+```js
+console.info("Esto es un mensaje tipo info");
+console.warn("Esto es un mensaje tipo warn");
+console.error("Esto es un mensaje tipo error");
+console.group("Esto es un mensaje tipo group");
+console.groupEnd("Esco es un mensaje tipo groupEnd");
 
+```
 ## Parte 7: Comentarios
 
 7.1 Escribe un pequeño bloque de código donde utilices comentarios de una línea y de varias líneas para explicar lo que hace cada parte.
