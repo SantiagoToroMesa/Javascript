@@ -41,7 +41,7 @@ R/ javascript es un lenguaje de programación el cual se encarga de darle intera
     let valornull
     console.log(valornull)
 ```
-![img.png](img.png)
+![img.png](img/img.png)
 
 2.5 Crea una variable con valor null y otra con un valor booleano. Muestra ambos en consola.
 ```js
@@ -50,7 +50,7 @@ R/ javascript es un lenguaje de programación el cual se encarga de darle intera
     console.log(valornull)
     console.log(valor2)
 ```
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 ## Parte 3: Entrada y Salida de Datos
 
 3.1 Usa prompt() para pedirle al usuario su edad y guárdala en una variable. Luego, muestra en consola un mensaje que diga "Tienes [edad] años".
@@ -58,21 +58,21 @@ R/ javascript es un lenguaje de programación el cual se encarga de darle intera
     let edad = window.prompt("Ingrese su edad");
     alert("Tienes " + edad + " Años");
 ```
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+![img_2.png](img/img_2.png)
+![img_3.png](img/img_3.png)
 
 3.2 Usa alert() para mostrar un mensaje de bienvenida.
 ```js
 alert("Bienvenido ami pagina conectada con javascript");
 ```
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)
 3.3 Usa confirm() para preguntar al usuario si desea continuar. Muestra en consola el valor que devuelve esta función.
 ```js
     let confirmar = confirm("Desea continuar ?")
     console.log(confirmar)
 ```
-![img_5.png](img_5.png)
-![img_6.png](img_6.png)
+![img_5.png](img/img_5.png)
+![img_6.png](img/img_6.png)
 ## Parte 4: Operadores
 
 4.1 Declara dos variables numéricas. Realiza y muestra los resultados de las siguientes operaciones: suma, resta, multiplicación, división y módulo.
@@ -114,7 +114,7 @@ console.log(true && false);
 console.log(false || true);
 console.log(!true);
 ```
-![img_7.png](img_7.png)
+![img_7.png](img/img_7.png)
 
 ## Parte 5: Condicionales
 
