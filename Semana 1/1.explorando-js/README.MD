@@ -174,6 +174,19 @@ console.groupEnd("Esco es un mensaje tipo groupEnd");
 
 7.1 Escribe un pequeño bloque de código donde utilices comentarios de una línea y de varias líneas para explicar lo que hace cada parte.
 
+```js
+// declaramos la variable nombre y le agregamos un prompt para que el usuario le asigne un valor
+let nombre = prompt("Digite su nombre");
+
+// declaramos la variable edad y le agregamos un prompt para que el usuario le asigne un valor
+let edad = prompt("Digite su edad");
+
+//declaramos la variable ciudad y le agregamos un prompt para que el usuario le asigne un valor
+let ciudad = prompt("Digite ciudad");
+
+//mostramos un mensaje al usuario con los datos ya ingresados
+alert(`Hola ${nombre}! tienes ${edad} años y eres de ${ciudad}!`);
+```
 ## Parte 8: Desafío Final
 
 8.1 Crea un archivo HTML y vincúlalo con un archivo .js externo. En ese archivo:
@@ -184,3 +197,9 @@ console.groupEnd("Esco es un mensaje tipo groupEnd");
     "Hola [nombre], tienes [edad] años y vives en [ciudad]."
 
     Entrega: Sube tus archivos .html y .js a la plataforma con el nombre taller_js_[tu_nombre].
+```js
+let nombre = prompt("Digite su nombre");
+let edad = prompt("Digite su edad");
+let ciudad = prompt("Digite ciudad");
+alert(`Hola ${nombre}! tienes ${edad} años y eres de ${ciudad}!`);
+```

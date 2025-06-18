@@ -20,16 +20,36 @@ La **suma de las longitudes de dos lados** siempre debe ser **mayor que el terce
 
 ### 🔹 Ejercicio 1
 Quita el primer elemento de un array de frutas.
-
+```js
+const frutas= ["manzana","banano","mango","pera"]
+const first = frutas.shift();
+console.log(frutas)
+console.log(first)
+```
 ### 🔹 Ejercicio 2
 Agrega un número al final de un array de números.
+```js
+const numeros = [2,4,7,8]
+const nuevo_number = 9
+numeros.push(nuevo_number)
+console.log(numeros)
 
+```
 ### 🔹 Ejercicio 3
 Agrega un elemento al principio de un array de palabras.
-
+```js
+const words = ["dialogo","consola","programacion"]
+words.unshift("sintaxis")
+console.log(words)
+```
 ### 🔹 Ejercicio 4
 Elimina el último elemento de un array de colores.
-
+```js
+const colors = ["azul","rojo","verde"]
+let last = colors.pop()
+console.log(colors)
+console.log(last)
+```
 ### 🔹 Ejercicio 5
 Extrae una porción de un array sin modificar el original.
 
