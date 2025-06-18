@@ -1,3 +1,5 @@
+// Parte 7 y 8
+
 // declaramos la variable nombre y le agregamos un prompt para que el usuario le asigne un valor
 let nombre = prompt("Digite su nombre");
 
