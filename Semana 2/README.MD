@@ -1,0 +1,35 @@
+#  Ejercicios preparatorios para trabajar con el DOM
+
+Estos ejercicios te ayudarán a desarrollar la lógica necesaria para recorrer estructuras de datos y prepararte para mostrarlas dinámicamente en una página web.
+
+---
+
+##  Parte 1: Arrays orientados al DOM
+
+1. Tienes un array de colores. Recorre ese array y crea un mensaje por cada color en formato: `"El color X es muy bonito"`. Imagina que luego mostrarás cada mensaje en un `<div>`.
+
+2. A partir de un array de frases motivadoras, crea un nuevo array donde cada frase esté envuelta en una etiqueta HTML (por ejemplo: `<p>`). Esto te ayudará a simular contenido que luego iría al DOM.
+
+3. Recorre un array de números y devuelve otro array de `<li>` con cada número. Piensa que será una lista HTML para mostrar luego en pantalla.
+
+---
+
+##  Parte 2: Objetos pensados para mostrarse
+
+1. Dado un objeto `persona` con `nombre`, `edad` y `ocupación`, construye un string en formato HTML para mostrar esa información como una tarjeta.
+
+2. A partir de un objeto que representa una canción (`titulo`, `artista`, `duracion`), crea una estructura HTML en formato `<div>` que contenga esa información. Piensa cómo inyectarías eso al DOM.
+
+3. Dado un objeto con múltiples propiedades (como `producto.nombre`, `producto.precio`, `producto.stock`), construye una lista `<ul>` donde cada propiedad sea un `<li>` con clave y valor.
+
+---
+
+##  Parte 3: Listas de Objetos enfocadas en visualización
+
+1. Recorre un array de usuarios (con `nombre` y `correo`) y crea un array de etiquetas `<div>` que incluyan esa información formateada como tarjeta de contacto.
+
+2. Dado un array de libros con `titulo`, `autor` y `año`, transforma cada uno en una cadena de texto con formato: `"Título (Año) - Autor"`. Luego imagina que cada una irá dentro de un `<li>`.
+
+3. Tienes una lista de tareas (con `descripcion` y `completada`). Crea una función que genere una estructura HTML diferente si la tarea está completa o pendiente. Por ejemplo: mostrar un ✅ o ❌ antes del texto.
+
+---
