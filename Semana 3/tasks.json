@@ -1,14 +1,22 @@
 {
-  "name": "semana-3",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SantiagoToroMesa/Javascript"
-  },
-  "private": true
+  "tareas": [
+    {
+      "id": "2",
+      "name": "Estudiar javascript",
+      "description": "Estudiar el lenguaje de programación JavaScript",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "name": "Estudiar ingles",
+      "description": "Realizar ejercicios de gramática y vocabulario en inglés utilizando anki y Duolingo",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "name": "Terminar el entrenamiento semanal",
+      "description": "terminar el entrenamiento de la semana y ampliar y aconstumbrarme a los conocimientos",
+      "completed": false
+    }
+  ]
 }
